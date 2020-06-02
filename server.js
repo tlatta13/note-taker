@@ -36,8 +36,23 @@ app.listen(PORT, function() {
 
 
 function pullJSON() {
-    let input = fs.readFileSync(__dirname + "/db/db.json");
-    let json = JSON.parse(input);
+    let note = fs.readFileSync(__dirname + "/db/db.json");
+    let json = JSON.parse(note);
     return json;
 }
 
+function newNoteObj(data) {
+
+}
+
+function addNote(data) {
+
+}
+
+function saveNote() {
+
+}
+
+function deleteNote() {
+    
+}
