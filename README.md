@@ -10,12 +10,12 @@ This project required us to build an application that allows users to create not
 ## Key Accomplishments
 * Created a server to run the application. 
 * Used express static to properly link the stylesheet
-* 
+* Created a server page and used routes to get all of the javascript code to function properly. 
 
 <a name="photos"></a>
 ## Photos / Videos
-* [Application Demo Video](https://vimeo.com/424399672)
-* ![Team Page](/Assets/Team-Builder-Demo.png)
+* [Application Demo Video](https://vimeo.com/425640578)
+* ![Team Page](/public/assets/Team-Builder-Demo.png)
 
 <a name="siteLinks"></a>
 ## Site Links
