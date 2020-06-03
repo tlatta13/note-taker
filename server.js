@@ -12,9 +12,13 @@ let notes = JSON.parse(fs.readFileSync(__dirname + "/db/db.json", (err) => {
     if(err) throw err;
 }));
 
+app.get("/", function (req, res) {
+    res.sendFile(path.join(__dirname, "/public/index.html"));
+});
+
 app.get("/notes", function (req, res) {
     res.sendFile(path.join(__dirname, "/public/notes.html"));
-})
+});
 
 app.get("/api/notes", function (req, res) {
     // const note = require("./db/db.json");
